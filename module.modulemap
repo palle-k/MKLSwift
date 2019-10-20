@@ -1,0 +1,9 @@
+module MKLSwift [system] {
+  header "mkl.h"
+  link "mkl_intel_lp64"
+  link "mkl_sequential"
+  link "mkl_core"
+  link "pthread"
+  link "m"
+  link "dl"
+}
