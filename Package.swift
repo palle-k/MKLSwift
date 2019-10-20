@@ -4,6 +4,5 @@
 import PackageDescription
 
 let package = Package(
-    name: "MKLSwift",
-    pkgConfig: "mkl"
+    name: "MKLSwift"
 )

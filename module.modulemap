@@ -1,10 +1,10 @@
-module MKLSwift [system] {
+module MKL [system] {
   header "/opt/intel/mkl/include/mkl.h"
   link "mkl_intel_lp64"
   link "mkl_sequential"
-  link "libmkl_intel_lp64"
   link "mkl_core"
   link "pthread"
   link "m"
   link "dl"
+  export *
 }
